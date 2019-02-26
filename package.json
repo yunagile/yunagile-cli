@@ -1,0 +1,32 @@
+{
+  "name": "yunagile",
+  "version": "2.0.2",
+  "description": "云南软捷科技app脚手架",
+  "bin": {
+    "yunagile": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dist": "node dist.js"
+  },
+  "keywords": [
+    "软捷科技"
+  ],
+  "author": "Jie.",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "exit": "^0.1.2",
+    "express": "^4.16.3",
+    "fs-extra": "5.0.0",
+    "inquirer": "^6.2.1",
+    "ip": "^1.1.5",
+    "net": "^1.0.2",
+    "npm": "^5.6.0",
+    "open": "^0.0.5",
+    "querystring": "^0.2.0",
+    "request": "latest",
+    "gulp":"latest",
+    "gulp-uglify": "latest"
+  }
+}
